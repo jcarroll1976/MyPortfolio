@@ -1,10 +1,10 @@
-
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="text-4xl font-bold font-signature">
-      <h1>Joshua</h1>
+    <div>
+      <Navbar />
     </div>
   );
 }
