@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImage from '../Profile.jpg';
+import ProfileImage from '../Joshpic.jpg';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 
 function Home() {
