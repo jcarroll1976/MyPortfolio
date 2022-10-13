@@ -4,7 +4,7 @@ import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 
 function Home() {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
+    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 '>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='sm:text-7xl font-bold text-white'>I am a Full Stack JavaScript Developer.</h2>
@@ -26,7 +26,7 @@ function Home() {
           </div>
         </div>
         <div>
-          <img src= {ProfileImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full'></img>
+          <img src= {ProfileImage} alt="my profile" className=' object-contain rounded-2xl mx-auto w-2/3 md:w-full'></img>
         </div>
       </div>
     </div>
